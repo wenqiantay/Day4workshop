@@ -19,7 +19,8 @@ public class CookieClient {
         } else {
             System.err.println("Invalid arguments input");
         }
-
+        
+        
         try {
             Socket s = new Socket("localhost", Integer.parseInt(portNumber));
 
